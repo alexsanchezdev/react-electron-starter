@@ -15,11 +15,13 @@
     "eject": "react-scripts eject",
     "electron": "electron .",
     "electron-start": "node src/wait",
-    "react-start": "react-scripts start"
+    "react-start": "react-scripts start",
+    "rebuild": "electron-rebuild"
   },
   "homepage": "./",
   "devDependencies": {
     "electron": "^1.7.10",
+    "electron-rebuild": "^1.6.0",
     "foreman": "^2.0.0"
   }
 }
